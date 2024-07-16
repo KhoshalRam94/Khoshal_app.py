@@ -16,7 +16,7 @@ st.bar_chart(chart_data)
 st.subheader("The first Line chart")
 st.line_chart(chart_data)
 
-st.subheader("A Population map around San Fransisco')
+st.subheader("A Population map around San Fransisco")
              
 df = pd.DataFrame(
     np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4],
